@@ -15,7 +15,7 @@ namespace Friction
             Console.Write("Enter the angle of launch(Must be less than 10 degrees): ");
             degree = Convert.ToDouble(Console.ReadLine());
 
-            while (degree > 10)
+            while (degree <= 0)
             {
                 Console.Write("Invalid input, try again: ");
                 degree = Convert.ToDouble(Console.ReadLine());
